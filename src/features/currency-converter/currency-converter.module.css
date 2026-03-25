@@ -1,0 +1,15 @@
+.ConverterBox {
+    width: 100%;
+    background-color: rgb(219, 240, 240);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.CurrencyRow {
+    display: flex;
+    gap: 10px;
+}
