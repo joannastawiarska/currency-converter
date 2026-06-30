@@ -1,5 +1,4 @@
 const BASE_URL = 'https://api.currencybeacon.com/v1';
-const API_TOKEN = 'JZuFKjHglJcQzLWv4KCTNRDKDf2G3PfI';
 
 export async function apiClient<T>(
     path: string,
