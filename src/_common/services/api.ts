@@ -8,11 +8,12 @@ export async function apiClient<T>(
     const query = params
         ? `?${new URLSearchParams(params).toString()}`
         : '';
+        
 
     const response = await fetch(`${BASE_URL}${path}${query}`, {
         headers: {
             "Content-Type": "application/json",
-            Authorization: `Bearer ${API_TOKEN}`,
+            Authorization: `Bearer ${process.env.CURRENCYBEACON_API_KEY}`,
         },
     });
 
